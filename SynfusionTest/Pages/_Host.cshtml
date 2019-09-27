@@ -20,12 +20,12 @@
               integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" />
     </environment>
     <link href="css/site.css" rel="stylesheet" />
-    <link href="https://cdn.syncfusion.com/ej2/17.2.46/material.css" rel="stylesheet" />
-    <script src="https://cdn.syncfusion.com/ej2/17.2.46/dist/ej2.min.js"></script>
-    <script src="https://cdn.syncfusion.com/ej2/17.2.46/dist/ejs.interop.min.js"></script>
+    <link href="https://cdn.syncfusion.com/ej2/17.3.10/material.css" rel="stylesheet" />
+    <script src="https://cdn.syncfusion.com/ej2/17.3.10/dist/ej2.min.js"></script>
+    <script src="https://cdn.syncfusion.com/ej2/17.3.10/dist/ejs.interop.min.js"></script>
 </head>
 <body>
-    <app>@(await Html.RenderComponentAsync<App>())</app>
+    <app>@(await Html.RenderComponentAsync<App>(RenderMode.ServerPrerendered))</app>
 
     <script src="_framework/blazor.server.js"></script>
 </body>

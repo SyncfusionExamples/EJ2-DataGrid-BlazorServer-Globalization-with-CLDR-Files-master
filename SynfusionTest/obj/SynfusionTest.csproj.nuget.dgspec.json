@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\IEJNC\\blazor\\githubsamples\\New folder\\EJ2-DataGrid-BlazorServer-Globalization-with-CLDR-Files-master\\SynfusionTest\\SynfusionTest.csproj": {}
+  },
+  "projects": {
+    "E:\\IEJNC\\blazor\\githubsamples\\New folder\\EJ2-DataGrid-BlazorServer-Globalization-with-CLDR-Files-master\\SynfusionTest\\SynfusionTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IEJNC\\blazor\\githubsamples\\New folder\\EJ2-DataGrid-BlazorServer-Globalization-with-CLDR-Files-master\\SynfusionTest\\SynfusionTest.csproj",
+        "projectName": "SynfusionTest",
+        "projectPath": "E:\\IEJNC\\blazor\\githubsamples\\New folder\\EJ2-DataGrid-BlazorServer-Globalization-with-CLDR-Files-master\\SynfusionTest\\SynfusionTest.csproj",
+        "packagesPath": "C:\\Users\\RenjithSinghRajendra\\.nuget\\packages\\",
+        "outputPath": "E:\\IEJNC\\blazor\\githubsamples\\New folder\\EJ2-DataGrid-BlazorServer-Globalization-with-CLDR-Files-master\\SynfusionTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RenjithSinghRajendra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\RenjithSinghRajendra\\Documents\\Nuget-50-beta\\Nuget-50-beta": {},
+          "C:\\Users\\RenjithSinghRajendra\\Downloads\\syncpreview\\Preview 8 Nuget\\Preview 8 Nuget\\Nuget": {},
+          "E:\\17.2.0\\17.2.0.52-beta": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Syncfusion.EJ2.Blazor": {
+              "target": "Package",
+              "version": "[17.3.0.10-beta, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
