@@ -38,7 +38,7 @@
     protected override void OnAfterRender(bool isrender)    
     {
         this.JsRuntime.Ejs().LoadLocaleData("wwwroot/de.json").SetCulture("de");
-        this.JsRuntime.Ejs().LoadCldrData(new string[] { "wwwroot/scripts/cldr-data/main/de/currencies.json", "wwwroot/scripts/cldr-data/main/de/numbers.json", "wwwroot/scripts/cldr-data/main/de/ca-gregorian.json", "wwwroot/scripts/cldr-data/main/de/timeZoneNames.json",  "wwwroot/scripts/cldr-data/supplemental/numberingSystems.json" }).SetCulture("de");
+        this.JsRuntime.Ejs().LoadCldrData(new string[] { "wwwroot/cldr-data/main-de/currencies.json", "wwwroot/cldr-data/main-de/numbers.json", "wwwroot/cldr-data/main-de/ca-gregorian.json", "wwwroot/cldr-data/main-de/timeZoneNames.json",  "wwwroot/cldr-data/supplemental/numberingSystems.json" }).SetCulture("de").SetCurrencyCode("EUR");
     }
 
 
