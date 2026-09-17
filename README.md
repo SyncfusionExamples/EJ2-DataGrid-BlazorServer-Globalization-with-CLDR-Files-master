@@ -12,18 +12,30 @@ This sample demonstrates how to localize the Syncfusion Blazor DataGrid (`EjsGri
 - Standard DataGrid features (sorting, grouping, paging) remain enabled alongside the localization setup.
 
 ## Prerequisites
-- Visual Studio 2022 or later
+- Visual Studio 2022 or later or Visual Studio Code
 - .NET SDK compatible with the project's target framework
-- Internet access to restore NuGet packages (`Syncfusion.EJ2.Blazor`) on first build
-- [VERIFY] A registered Syncfusion license (including the free Community License) may be required to run Syncfusion Blazor components without a license validation message, depending on the installed package version.
 
 ## How to Run the Project
+
+**Visual Studio 2022**
+
 1. Clone or download this repository to your local machine.
 2. Open `BlazorApp1/BlazorApp1.sln` in Visual Studio 2022.
 3. Restore NuGet packages (Visual Studio typically does this automatically on first build; otherwise right-click the solution and choose **Restore NuGet Packages**).
 4. Build the solution.
 5. Run the project (**F5** or **Ctrl+F5**). The app opens in your default browser.
 6. On the home page, confirm the DataGrid loads with German culture formatting applied — the **Order Date** column should use the German date pattern, and the **Freight** column should display values with the € symbol.
+
+**Visual Studio Code**
+
+1. Open the repository folder in Visual Studio Code.
+2. Open the integrated terminal.
+3. Navigate to the project directory.
+
+```bash
+dotnet restore
+dotnet run
+```
 
 ## Project Structure
 - `BlazorApp1/Pages/Index.razor` — hosts the `EjsGrid` component and contains the logic that loads the locale/CLDR data and applies the German culture and currency settings.
